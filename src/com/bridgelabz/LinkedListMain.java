@@ -24,5 +24,14 @@ public class LinkedListMain {
         list2.show();
         list2.popLast();
         list2.show();
+
+        LinkedList<Integer>list3=new LinkedList<>();
+        list3.add(56);
+        list3.add(30);
+        list3.add(70);
+        list3.show();
+        list3.searchAndInsert(30,40);
+        list3.show();
+
     }
 }
